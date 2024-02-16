@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: 'poppons',sans-serif;
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin:40px 20px 0 20px;
+}
+.container.heading{
+    width: 50%;
+    padding-bottom: 50px;
+
+}
+.container.heading h3{
+    font-size: 3px;
+    font-weight: bolder;
+    border-bottom: 3px solid #222;
+    padding-bottom: 10px;
+}
+
+.container.heading h3 span{
+    font-weight: 100;
+}
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.container.box .dream{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+.container .box .dream img{
+    width:350px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+.container .btn{
+    position: absolute;
+    top: 45%;
+    left: 11%;
+    background-color: rgb(255, 0, 191);
+    color: blue;
+    font-size: 20px;
+}
+
+.AIRTEL .btn{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    background-color: rgb(255, 0, 191);
+    color: blue;
+    font-size: 20px;
+}
+.SAF .btn{
+    position: absolute;
+    top: 30%;
+    left: 11%;
+    background-color: rgb(255, 0, 191);
+    color: blue;
+    font-size: 20px;
+}
+.LABS .btn{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    background-color: rgb(255, 0, 191);
+    color: blue;
+    font-size: 20px;
+}
+.TEL .btn{ 
+    position: absolute;
+    top: 25%;
+    left: 42%;
+    background-color: rgb(255, 0, 191);
+    color: blue;
+    font-size: 20px;
+}
+
+.LIB .btn{ 
+    position: absolute;
+    top: 90%;
+    left: 43%;
+    background-color: rgb(255, 0, 191);
+    color: blue;
+    font-size: 20px;
+}
+.SOUTH .btn{ 
+    position: absolute;
+    top: 85%;
+    left: 79%;
+    background-color: rgb(255, 0, 191);
+    color: blue;
+    font-size: 20px;
+}
+
+.ELECT .btn{ 
+    position: absolute;
+    top: 97%;
+    left: 10%;
+    font-size: 20px;
+}
+
+
+.APPL .btn{ 
+    position: absolute;
+    top: 26%;
+    left: 74%;
+    font-size: 20px;
+}
+
+
+.BACKG { 
+    position: absolute;
+    top: 15%;
+    left: 75%;
+
+}
